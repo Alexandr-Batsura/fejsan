@@ -11,7 +11,7 @@ pip3.9 install pytelegrambotapi
 
 import telebot
 
-API_key = 'bdebcf18c6441e7f1100d37e7179a384'
+API_key = 'enter API weather'
 def weather_get_byAPI(city, country=None):
     import requests
     global API_key
@@ -49,7 +49,7 @@ class User:
         self.city = city
         self.country = country
 
-token = input("TelegramBotToken:\n")
+#token = input("TelegramBotToken:\n")
 
 token = '1460547917:AAFuP4m7FbfFHGZI3J_o8Ac_FTg_OBR4_R4'   #bot token
 bot = telebot.TeleBot(token)
